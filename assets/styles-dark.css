@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap');
+
+html {
+    cursor: url('img/cursor.png'), auto;	
+}
+
+a {
+    cursor:url("img/pointer.png"), auto;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', "Martel","Frank Ruhl Libre", serif;
+    font-weight: lighter;
+    color:black;
+}
+
+p, a {
+    font-family: "Inconsolata", "PT Mono", "Courier", monospace;
+    color:black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+hr {
+    height: .1px;
+    background-color: black;
+}
+  
+hr.thick {
+    height: 2.5px;
+    margin-top: -2px;
+    background-color: black;
+}
+  
+hr.double {
+    background-color: transparent;
+    height: 9px;
+    border-top: 2px solid black;
+    border-bottom: 1px solid black;
+}
+
+a {
+    color: black;
+    background: linear-gradient(to right, #fafa9a 50%, transparent 50%);
+    background-size: 300% 100%;
+    background-position:right bottom;
+    transition: background 0.4s ease;
+}
+  
+a:hover {
+    color: black;
+    background-position:left bottom;
+    transition: background 0.4s ease;
+}
+
+div.proj-img {
+    margin-top: -20px;
+    margin-bottom: 70px;
+}
+
+
+/* ---- Container ---- */
+.page {
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* medium device and down */
+@media only screen and (max-width: 768px) {
+    .page {
+        margin-top: 3%;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+/* ---- End of Container ---- */
+/* ================================
+
+/* ---- Nav ---- */
+p.update, div.menu {
+    display: inline;
+}
+
+div.menu {
+    float: right;
+}
+
+.update, nav li {
+    display: inline;
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.update {
+    margin-left: 1%;
+    float: left;
+}
+
+nav {
+    overflow: auto;
+}
+
+nav ul {
+    float: right;
+    margin-right: 1%;
+}
+
+/* medium device and down */
+@media only screen and (max-width: 768px) {
+    .update, nav li {
+        display: block;
+        font-size: 16px;
+        letter-spacing: -0.2px;
+    }
+
+    .update {
+        display: block;
+        text-align: center;
+        float: none;
+    }
+
+    nav li {
+        display: block;
+    } 
+
+    li.sep {
+        display: none;
+    }
+}
+/* ---- End of Nav ---- */
+/* ================================
+
+/* --- Project --- */
+
+.indiv-proj p {
+    font-size: 1.1em;
+    font-family: "Nunito Sans", "Hind Siliguri", "Noto Sans KR", sans-serif;
+    letter-spacing: .1px;
+    line-height: 1.45em;
+}
+
+.head a {
+    font-family: "Nunito Sans", "Hind Siliguri", "Noto Sans KR", sans-serif;
+    font-size: 1em;
+}
+
+p.desc, p.desc-first {
+    font-size: 1.1em;
+    font-family: "Nunito Sans", "Hind Siliguri", "Noto Sans KR", sans-serif;
+    letter-spacing: .1px;
+    line-height: 1.45em;
+}
+
+
+h2.sec-title {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-family: "Nunito Sans", "Hind Siliguri", "Noto Sans KR", sans-serif;
+    padding-right: 50px;
+}
+
+.head {
+    margin-bottom: 50px;
+}
+
+[class="row indiv-proj"] {
+    margin-bottom: 40px;
+}
+
+.row-menu a {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: .3px;
+    display: inline;
+}
+
+.row-menu .col-md-4 {
+    display: inline;
+}
+
+.row-menu .col-md-4 a.right {
+    float: right;
+}
+
+.row-menu {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.head {
+    margin-top: 20px;
+}
+
+.row-img img {
+    margin-top: -25px;
+    margin-bottom: 50px;
+}
+
+ol li{
+    font-size: 1.1em;
+    font-family: "Nunito Sans", "Hind Siliguri", "Noto Sans KR", sans-serif;
+    letter-spacing: .1px;
+    line-height: 1.45em;
+    color:black;
+}
+
+iframe {
+    margin-top: 20px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.indiv-proj p a {
+    font-family: "Nunito Sans", "Hind Siliguri", "Noto Sans KR", sans-serif;
+}
+
+iframe.prototype {
+    margin-top: -50px;
+}
+
+/* ---- End of Project ---- */
+/* ================================ */
+
+/* --- Modal --- */
+.info {
+    display: none;
+    position: fixed;
+    border: 2px black solid;
+    box-shadow: 5px 5px 2px #aaaaaa;
+    background-color: white;
+    cursor: default;
+}
+
+span.closeInfo, span.closeInfoAll {
+    color: black;
+    text-transform: capitalize;
+    float: right;
+    padding: 0px 10px;
+    border-left: 2px black solid;
+    font-size: 1em;
+    font-family: "Inconsolata", "PT Mono", "Courier", monospace;
+}
+
+span.closeInfoAll {
+    border: none;
+    font-size: 1.4em;
+    padding: 5px 15px;
+}
+
+span.closeInfo:hover, span.closeInfoAll:hover {
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+
+.info p {
+    margin: 0px;
+    padding: 5px 20px;
+    font-size: 1.4em;
+    color:black;
+    border-top: 2px black solid;
+    font-family: "Inconsolata", "PT Mono", "Courier", monospace;
+}
+
+.info .popout-desc a, .info .popout-desc i{
+    color:black;
+}
+
+.info .popout-desc a {
+    color: black;
+    background: linear-gradient(to right, #fafa9a 50%, transparent 50%);
+    background-size: 300% 100%;
+    background-position:right bottom;
+    transition: background 0.4s ease;
+}
+  
+.info .popout-desc a:hover {
+    color: black;
+    background-position:left bottom;
+    transition: background 0.4s ease;
+}
+
+.info p.header {
+    display: inline;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: "Inconsolata", "PT Mono", "Courier", monospace;
+    border-top: none;
+}
+
+.info p.popout-desc {
+    font-size: 1em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#bio {
+    width: 60%;
+}
+
+#info1 div.info-img-holder {
+    border-top: 2px black solid;
+    width: 260px;
+}
+
+#info2 div.info-img-holder {
+    border-top: 2px black solid;
+    width: 280px;
+}
+
+#info3 div.info-img-holder {
+    border-top: 2px black solid;
+    width: 255px;
+}
+
+#info4 div.info-img-holder {
+    border-top: 2px black solid;
+    width: 300px;
+}
+
+#info5 div.info-img-holder {
+    border-top: 2px black solid;
+    width: 305px;
+}
+
+.blinking-cursor {
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
+.info {
+    cursor: url('img/cursor.png'), auto;	
+}
+
+span.closeInfoAll, span.closeInfo {
+    cursor:url("img/pointer.png"), auto !important;
+}
+
+@keyframes "blink" {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: black;
+    }
+}
+  
+@-moz-keyframes blink {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: black;
+    }
+}
+  
+@-webkit-keyframes "blink" {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: black;
+    }
+}
+  
+@-ms-keyframes "blink" {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: black;
+    }
+}
+  
+@-o-keyframes "blink" {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: black;
+    }
+}
+
+/* ---- End of Modal ---- */
+/* ================================ */

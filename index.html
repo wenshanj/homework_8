@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="#."/>
+    <meta name="author" content="Wen Shan Jiang" />
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <!-- <link rel="manifest" href="assets/favicon/site.webmanifest"> -->
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="https://kit.fontawesome.com/f5e602ec7d.js" crossorigin="anonymous"></script>
+    <title>Wen Shan Jiang | Portfolio</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DEPC20L6M6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-DEPC20L6M6');
+    </script>
+  </head>
+  <body onload="changeText()">
+    <div class="page">
+        <nav>
+            <p class="update"></p>
+            <ul>
+                <li><a href="index.html">*Work*</a></li>
+                <li class="sep"> &#8213; </li>
+                <li><a href="#" class="about">About</a></li>
+                <li class="sep"> &#8213; </li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+        <hr class="thick">
+        <article>
+            <header class="intro">
+                <div class="row">
+                    <div class="col-md-4" id="animation">
+                        <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_fqygznk9.json"  background="transparent"  speed="1"  style="width: 350px; height: 350px;" hover autoplay ></lottie-player>
+                    </div>
+                        <div class="col-md-8">
+                        <h1>Hi there! I'm Wen Shan and I'm a sophomore studying Information Systems @ 
+                            CMU. Interested in using design and technology to allow people
+                            to have better digital and real-world experiences.
+                        </h1>
+                    </div>
+                </div>
+            </header>
+            <section>
+                <p class="proj-sec-title"><span>Projects</span></p>
+                <div class="row projects multi">
+                    <div class="col-md-6">
+                        <a href="projectCMU.html"><img src="assets/img/CMU/CMU TN.jpg"></a>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Landing space for CMU</h2>
+                        <p>Assisting CMU Dietrich College in the growth of their partner portfolio.</p>
+                        <p class="tech-used"> # User Interface Design & Responsive Web Design & Front End Development </p>
+                        <br>
+                        <a href="projectCMU.html">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="row projects multi">
+                    <div class="col-md-6">
+                        <a href="projectBunnyRun.html"><img src="assets/img/Bunny Run/Bunny Run TN.jpg"></a>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Bunny Run: a platformer game</h2>
+                        <p>Creating something fun and enjoyable for others.</p>
+                        <p class="tech-used"> # Game Development & Game GUI Design & Storyboarding</p>
+                        <br>
+                        <a href="projectBunnyRun.html">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="row projects multi">
+                    <div class="col-md-6">
+                        <a href="projectWhoDesign.html"><img src="assets/img/Who Design/Who Design TN.jpg"></a>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Who Design?</h2>
+                        <p>Inviting users to learn more about designers who are more than their culture, 
+                            gender identity, nationality, or any other ways they tend to
+                            gate-keep, often without full awareness of what they’re doing.</p>
+                        <p class="tech-used"> # Information/Grid Design & Interaction Design </p>
+                        <br>
+                        <a href="projectWhoDesign.html">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="row projects multi proj-last">
+                    <div class="col-md-6">
+                        <a class="ongoing"><img src="assets/img/ClearTerms/ClearTerms TN.jpg"></a>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>ClearTerms</h2>
+                        <p>Helping internet users better understand the Terms and Conditions they are 
+                            implicitly agreeing to by highlighting details for them. <br><br>
+                            Work in progress, check back later <i class="fas fa-laptop-code"></i>
+                        </p>
+                        <p class="tech-used"> # User Interface Design & Front End Development & Back End Development </p>
+                        <br>
+                        <a class="ongoing">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="info" id="closeAll">
+                    <span class="closeInfoAll"> Close All X </span>
+                </div>
+                <div class="info" id="info1" onclick="upperInfo('info1')">
+                    <p class="header"> Me.jpg <span class="closeInfo" id="closeInfo1"> X </span></p>
+                    <div class="info-img-holder"><img src="assets/img/IMG_6602.jpg"></div>
+                </div>
+                <div class="info" id="info2" onclick="upperInfo('info2')">
+                    <p class="header"> Who I Look Like.jpg <span class="closeInfo" id="closeInfo2"> X </span></p>
+                    <div class="info-img-holder"><img src="assets/img/Joo_Dee.png"></div>
+                </div>
+                <div class="info" id="info3" onclick="upperInfo('info3')">
+                    <p class="header"> Cake I Made.jpg <span class="closeInfo" id="closeInfo3"> X </span></p>
+                    <div class="info-img-holder"><img src="assets/img/IMG_7100.PNG"></div>
+                </div>
+                <div class="info" id="info4" onclick="upperInfo('info4')">
+                    <p class="header"> Me @ Disney World.jpg <span class="closeInfo" id="closeInfo4"> X </span></p>
+                    <div class="info-img-holder"><img src="assets/img/IMG_4347.JPG"></div>
+                </div>
+                <div class="info" id="info5" onclick="upperInfo('info5')">
+                    <p class="header"> Trip With Friends.jpg <span class="closeInfo" id="closeInfo5"> X </span></p>
+                    <div class="info-img-holder"><img src="assets/img/IMG_5446.jpg"></div>
+                </div>
+                <div class="info" id="bio" onclick="upperInfo('bio')">
+                    <p class="bio header"> README.md <span class="closeInfo" id="closeBio"> X </span></p>
+                    <p class="popout-desc"> Hello! I'm Wen Shan (she/her) and I'm a sophomore at CMU studying 
+                        Information Systems. Fun fact, I actually started college as a chemistry major who has never 
+                        written a single line of code. In my first semester at CMU, I took an introductory Computer Science course 
+                        and I discovered how fun and creative the field of tech really is. I decided to transfer to Information Systems 
+                        because I want to design and deliver innovative solutions to prevalent problems. <br>
+                        <br>
+                        I love baking, traveling, and skin care <i class="fas fa-grin-beam"></i><br>
+                        <br>
+                        Chat with me by emailing me at <a href="mailto:wenshanj@andrew.cmu.edu" target="_blank">wenshanj@andrew.cmu.edu</a><br>
+                        <br>
+                        Learn more about my project on <a href="https://github.com/wenshanj" target="_blank">GitHub</a><span class="blinking-cursor">|</span> 
+                    </p>
+                </div>
+            </section>
+        </article>
+        <footer>
+            <hr class="double">  
+            <p> Coded with <i class="fas fa-heart"></i> by Wen Shan</p>
+        </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script type="text/javascript" src="assets/script.js"></script>
+  </body>
+</html>
